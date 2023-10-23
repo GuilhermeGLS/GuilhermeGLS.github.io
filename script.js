@@ -1,6 +1,8 @@
 const dark = document.getElementById('botao') 
 
+// ao clicar no botão chama a função darkmode
 dark.addEventListener('click', darkMode)
+
 
 function darkMode(){
     const darkMode = document.getElementById('b') //b de Body
